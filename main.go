@@ -18,7 +18,7 @@ func main() {
 	// If we try to set the line below...
 	// myBug.killable = true
 
-	// A) There are no bugs with godmode allowed
+	// A) There are no insects with godmode allowed in my universe
 	// B) This will cause the following error:
 	// ./main.go:20:7: myBug.killable undefined (cannot refer to unexported field or method killable)
 
