@@ -22,7 +22,7 @@ func main() {
 	// B) This will cause the following error:
 	// ./main.go:20:7: myBug.killable undefined (cannot refer to unexported field or method killable)
 
-	// We exposed a method called 'IsKillable'
+	// We exposed a method called 'IsKillable' in bug/bug.go
 	// Remember, Capitalized words in Golang are Public / exported!
 	if myBug.IsKillable() {
 		// This works, and is a safe way to refer to the 'killable' boolean of
